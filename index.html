@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Bán Mỹ Phẩm</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/b7ef5cd67f.js"
+      crossorigin="anonymous">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+      <!-- Header -->
+    <header class="header">
+
+      <a href ="http://127.0.0.1:5500/index.html">
+        <img class="home" src="./img/Claudia-removebg-preview.png"  alt="" style="height: 170px;width: 200px;"/>
+      </a>
+
+      <div class="search">
+          <form action="">
+            <input type="text" placeholder="Tìm sản phẩm" />
+          </form>
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </div>
+
+        <div class="menu">
+          <a class="btn shop" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <h1 id="number_add">0</h1>
+            <i class="fa-brands fa-shopify"></i>
+            Giỏ hàng
+          </a>
+        
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Sản Phẩm</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+              <div class="offcanvas-body body_cart"></div>
+          </div>
+          
+            <a class="user" href="#" id="btn_login">
+              <i class="fa-solid fa-user"></i>
+              Tài Khoản
+            </a>
+      </div>
+    </header>
+      <!-- Header end -->
+    <hr/>
+
+    <!-- Content -->
+    <div class="content">
+
+      <!-- Section -->
+      <section class="ani">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/slideshow_1.webp" class="d-block w-100" alt="..." />
+            </div>
+
+            <div class="carousel-item">
+              <img src="./img/slideshow_2.webp" class="d-block w-100" alt="..." />
+            </div>
+
+            <div class="carousel-item">
+              <img src="./img/slideshow_3.webp" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-target="#carouselExampleControls"
+            data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-target="#carouselExampleControls"
+            data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+
+        </div>
+      </section>
+  
+      <section class="product">
+        <h3>Sản Phẩm Bán Chạy</h3>
+       <div class="gach"></div>
+        <h5>Xem Thêm</h5>
+        <!-- Container -->
+        <div class="container">
+          
+          <div class="product-item1">
+            <span class="sell">25%</span>
+            <img src="./img/serum_set_da1937ca299f468e9927a5719744cab2_grande.webp" alt="">
+            <h3>Mặt nạ dưỡng da tinh chất lô hội Real Nature Mask Sheet 300ml </h3>
+            <p class="money">
+              14,250₫
+              <span class="sale">19,000₫ </span>
+            </p>
+           <a href="#" class="addcart">Thêm Giỏ Hàng</a>
+          </div>
+  
+          <div class="product-item2">
+            <span class="sell">25%</span>
+            <img src="./img/nl8084_2_ae6b3fd9404c403a9804ba6f8bad08a6_grande.webp" alt="">
+            <h3>Gel nha đam dưỡng da Soothing & Moisture Aloe Vera 92% Gel 300ml</h3>
+            <p class="money">
+              93,750₫
+              <span class="sale">125,000₫ </span>
+            </p>
+            <a href="#" class="addcart">Thêm Giỏ Hàng</a>
+          </div>
+  
+          <div class="product-item3">
+            <span class="sell">60%</span>
+            <img src="./img/nr-web-product-23_939b5c7f5e8141e7bf3f1850e58a5f57_grande.webp" alt="">
+            <h3>Bộ Tinh Chất Mờ Thâm Sáng Da Vitapair C Dark Spot Serum</h3>
+            <p class="money">
+              80,250₫ 
+              <span class="sale">200,000₫ </span>
+            </p>
+            <a href="#" class="addcart">Thêm Giỏ Hàng</a>
+          </div>
+  
+          <div class="product-item4">
+            <span class="sell">25%</span>
+            <img src="./img/web-aloevera-foam-1_03268396380b4a3a8c151e7cfb30bb61_grande.webp" alt="">
+            <h3>Sữa rửa mặt Soothing & Moisture Aloe Vera Foam Cleanser 150ml</h3>
+            <p class="money">
+              93,750₫ 
+              <span class="sale">125,000₫ </span>
+            </p>
+            <a href="#" class="addcart">Thêm Giỏ Hàng</a>
+          </div>
+  
+          <div class="product-item5">
+            <span class="sell">25%</span>
+            <img src="./img/web-cicatoner-2_f0f08b949cbc4ea08d43288e93863aa3_grande.webp" alt="">
+            <h3>Nước Cân Bằng Green Derma Mild Cica Big Toner 500ml</h3>
+            <p class="money">
+              247,500₫
+              <span class="sale">330,000₫ </span>
+            </p>
+            <a href="#" class="addcart">Thêm Giỏ Hàng</a>
+          </div>
+  
+        </div>
+        <!-- Container End  -->
+      </section>
+  
+      <section class="phong">
+        <div class="zoom">
+          <img class="zoom1" src="./img/block_home_category1.webp" alt="">
+          <img class="zoom2" src="./img/block_home_category2.webp" alt="">
+          <img class="zoom3" src="./img/block_home_category3.webp" alt="">
+        </div>
+      </section>
+  
+      <section class="new">
+        <h3 >Sản Phẩm Mới</h3>
+       <div class="gach"></div>
+        <h5>Xem Thêm</h5>
+  
+        <div class="container">
+          
+          <div class="new-item1">
+            <span class="sell">25%</span>
+            <img src="./img/nr-official-35_f062e2c0cfcf4f0fbc638b68318048d0_grande.webp" alt="">
+            <h3>Nature Republic xịt dưỡng chăm sóc tóc Argan Essential  Hair No Wash Treatment Pack 160ml </h3>
+            <p class="money">
+              14,250₫
+              <span class="sale">19,000₫ </span>
+            </p>
+           <a href="#" class="addcart">Thêm Giỏ Hàng</a>
+          </div>
+  
+          <div class="new-item2">
+            <span class="sell">25%</span>
+            <img src="./img/nr-official-37_06aa7e4757ef4ead87151f6b8729b716_grande.webp" alt="">
+            <h3>Mặt nạ dưỡng tóc Nature Republic Argan Essential Deep Care Hair Pack 200ml</h3>
+            <p class="money">
+              93,750₫
+              <span class="sale">125,000₫ </span>
+            </p>
+            <a href="#" class="addcart">Thêm Giỏ Hàng</a>
+          </div>
+  
+          <div class="new-item3">
+            <span class="sell">60%</span>
+            <img src="./img/nr-official-38_c717bb2fb7f442e9b0f72b209ed1bdd5_grande.webp" alt="">
+            <h3>Nature Republic Dầu gội đầu Argan Essential Deep Care Hair Shampoo 300ml</h3>
+            <p class="money">
+              80,250₫ 
+              <span class="sale">200,000₫ </span>
+            </p>
+            <a href="#" class="addcart">Thêm Giỏ Hàng</a>
+          </div>
+  
+          <div class="new-item4">
+            <span class="sell">25%</span>
+            <img src="./img/nr-official-44_1a320bb7a5d044069cd5a88d37c4b7bc_grande.webp" alt="">
+            <h3>Nature Republic Sáp chống nắng California Aloe Fresh Powdery Sun Stick SPF50+PA+++ 24g</h3>
+            <p class="money">
+              93,750₫ 
+              <span class="sale">125,000₫ </span>
+            </p>
+            <a href="#" class="addcart">Thêm Giỏ Hàng</a>
+          </div>
+  
+          <div class="new-item5">
+            <span class="sell">25%</span>
+            <img src="./img/nr-official-45_5920859dd54c4143a8be3ddfd27e3f0e_grande.webp" alt="">
+            <h3>Nature Republic Kem chống nắng California Aloe Daily Sun Block SPF50+PA+++ 57ml</h3>
+            <p class="money">
+              247,500₫
+              <span class="sale">330,000₫ </span>
+            </p>
+            <a href="#" class="addcart">Thêm Giỏ Hàng</a>
+          </div>
+  
+        </div>
+      </section>
+
+      <section class="newpost">
+        <h3>Bài Viết Mới Nhất</h3>
+        <div class="gach"></div>
+
+        <div class="newpost-list">
+          <div class="list1">
+            <img src="./img/pr-goodskin-kol-2_afe9717a3f4a422e929ab55f1ce6e74e_grande.webp" alt="">
+            <div class="ngaythang">
+              <span>THỨ BẢY 02,07,2022</span>
+            </div>
+          
+            <h3>Hot TikToker rầm rộ chia sẻ dòng tẩy trang mới</h3>
+            <div class="gach"></div>
+            <p>Là bước cực kỳ quan trọng trong mọi routine chăm sóc da, lựa chọn sản phẩm tẩy trang sao cho phù hợp với làn da đôi khi cũng khiến chúng...</p>
+
+          </div>
+         
+          <div class="list2">
+            <img src="./img/chong_nang_nature_republic_d2bd9ce6ca454da3b6ab5ab9320490fa_grande.webp" alt="">
+            <div class="ngaythang">
+              <span>THỨ BẢY 02,07,2022</span>
+            </div>
+
+            <h3>Bộ đôi chống nắng dưỡng da không thể bỏ qua</h3>
+            <div class="gach"></div>
+            <p>Hè đến - mùa của những chuyến du lịch ngập nắng và cả những làn da bướng bỉnh. Làm sao để tha hồ vui chơi dưới nắng hè mà làn da...</p>
+
+          </div>  
+          
+          <div class="list3">
+            <img src="./img//gel_nha_dam_7741e868b1ea4c28bf1a88f3ab12b5d9_grande.webp" alt="">
+            <div class="ngaythang">
+              <span>THỨ BẢY 02,07,2022</span>
+            </div>
+
+            <h3>Sử dụng gel dưỡng ẩm "quốc dân" này đã lâu</h3>
+            <div class="gach"></div>
+            <p>Gel nha đam Nature Republic Soothing & Moisture Aloe Vera 92% Soothing Gel đã quá nổi tiếng và được mệnh danh là loại mỹ phẩm "thần thánh" vì có ít...</p>
+
+          </div>
+
+        </div>
+      </section>
+      
+      <section class="email">
+        <h1>ĐĂNG KÝ</h1>
+        <p>Đăng ký nhận bản tin của Nature Republic để cập nhật những sản phẩm mới, 
+          <br> thông tin ưu đãi đặc biệt và thông tin giảm giá khác.</p>
+  
+        <form class="form" action="">
+          <input class="text" type="text" placeholder="Nhập email của bạn">
+          <button>Gửi</button>
+        </form>
+      </section>
+      <!-- Section End -->
+      
+    </div>
+    <!-- Content End -->
+
+    <!-- Container -->
+    <div class="formlogin container">
+        <form action="#">
+
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input class="form-control" id="password" placeholder="********" ></input>
+            </div>
+
+            <input  type="submit"  id="btn_submit  " value="Đăng Nhập" style="background-color:white;  ">
+        </form>
+    </div>
+    <!-- Container End -->
+    
+    <!-- Footer -->
+    <footer class="footer">
+      
+      <div class="gioithieu">
+        <h1>GIỚI THIỆU</h1>
+        <p>Nature Republic là thương hiệu mỹ phẩm từ thiên nhiên hàng đầu tại Hàn Quốc. 
+          <br>Với triết lý Thiên Nhiên Hoàn Hảo, Nature Republic luôn chú trọng việc tìm kiếm 
+          <br> những thành phần thuần khiết từ nguồn thiên nhiên sạch 
+          <br> trên khắp thế giới, nghiên cứu và đưa vào 
+          <br> những sản phẩm làm đẹp chất lượng và đa dạng từ chăm sóc da đến trang điểm.
+        </p>
+
+        <div class="icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-google-plus"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-skype"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="quiz">
+        <h1>PHÁP LÝ & CÂU HỎI</h1>
+        <ol>
+          <li>- Tìm kiếm</li>
+          <li>- Giới thiệu</li>
+          <li>- Chính sách đổi trả</li>
+          <li>- Chính sách bảo mật</li>
+          <li>- Điều khoản dịch vụ</li>
+          <li>- Chính sách giao hàng</li>
+          <li>- Hướng dẫn mua hàng</li>
+        </ol>
+      </div>
+
+      <div class="info">
+      <h1>THÔNG TIN LIÊN HỆ</h1>
+      <ol>
+        <li>Địa chỉ: 1012 Kha Vạn Cân, Thủ Đức, TP Hồ Chí Minh</li>
+        <li>Điện thoại: 094819495</li>
+        <li>Mail: mypham88@gmail.com</li>
+      </ol>
+    </div>
+
+    </footer>
+    <!-- Footer End -->
+
+    <script src="./scrips.js"> </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous">
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous">
+    </script>
+
+  </body>
+</html>
+
